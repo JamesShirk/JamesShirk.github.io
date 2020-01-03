@@ -10,15 +10,15 @@ body {
     top: 0;
     left: 0;
     background-color: #26268d;
-    text-align: right;
+    text-align: center;
     overflow-x: hidden;
     padding-top: 20px;
   }
   
-  .sidenav a {
+  /* .sidenav a {
     text-transform: uppercase;
     padding: 2.5em 2.5em 0.5em 2.5em ;
-    /* padding: 6px 8px 6px 16px; */
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -28,7 +28,7 @@ body {
   .sidenav a:hover {
     text-transform: uppercase;
     color: #4080aa;
-  }
+  } */
   
   .main {
     margin-left: 250px; /* Same as the width of the sidenav */
@@ -39,4 +39,25 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  .button {
+    background-color: #26268d;
+    width: 250px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 21px;
+    margin: 4px 2px;
+    opacity: 1.0;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3131b5;
   }
