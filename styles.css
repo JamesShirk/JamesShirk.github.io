@@ -16,7 +16,9 @@ body {
   }
   
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    text-transform: uppercase;
+    padding: 2.5em 2.5em 0.5em 2.5em ;
+    /* padding: 6px 8px 6px 16px; */
     text-decoration: none;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -24,6 +26,7 @@ body {
   }
   
   .sidenav a:hover {
+    text-transform: uppercase;
     color: #4080aa;
   }
   
