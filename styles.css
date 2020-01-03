@@ -36,9 +36,9 @@ body {
     padding: 0em 0.625em;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  @media screen and (max-height: 28.125em) {
+    .sidenav {padding-top: 0.9375em;}
+    .sidenav a {font-size: 1.125em;}
   }
 
   .buttona{
