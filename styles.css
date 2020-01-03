@@ -41,7 +41,31 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
-  .button {
+  .buttona{
+    position: absolute;
+    bottom: 74%;
+    left: 0%;
+  }
+
+  .buttonb{
+    position: absolute;
+    bottom: 58%;
+    left: 0%;
+  }
+
+  .buttonc{
+    position: absolute;
+    bottom: 42%;
+    left: 0%;
+  }
+
+  .buttond{
+    position: absolute;
+    bottom: 26%;
+    left: 0%;
+  }
+
+  .buttona, .buttonb, .buttonc, .buttond {
     background-color: #26268d;
     width: 250px;
     border: none;
@@ -58,6 +82,6 @@ body {
     cursor: pointer;
   }
   
-  .button:hover {
+  .buttona:hover, .buttonb:hover, .buttonc:hover, .buttond:hover {
     background-color: #3131b5;
   }
