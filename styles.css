@@ -67,7 +67,7 @@ body {
 
   .buttona, .buttonb, .buttonc, .buttond {
     background-color: #26268d;
-    width: 12.5%;
+    width: 100%;
     border: none;
     color: white;
     padding: 16px 32px;
