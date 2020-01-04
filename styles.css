@@ -94,6 +94,11 @@ body {
     padding: 0px 10px;
   }
 
+  .logo img{
+    width: 66%;
+    height: 8.25%;
+  }
+
 /*and (min-height: 1100px)*/
 @media screen and (max-width: 1300px){
   .sidenav {
