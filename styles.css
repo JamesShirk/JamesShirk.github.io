@@ -100,7 +100,7 @@ body {
   }
 
 /*and (min-height: 1100px)*/
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1150px){
   .sidenav {
     height: 100%;
     width: 30%;
