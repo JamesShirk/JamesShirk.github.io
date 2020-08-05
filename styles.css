@@ -37,8 +37,8 @@ body {
   }
 
   .pdf{
-    width: 750vw;
-    height: 900vh;
+    width: 65vw;
+    height: 90vh;
   }
   
   @media screen and (max-height: 450px) {
